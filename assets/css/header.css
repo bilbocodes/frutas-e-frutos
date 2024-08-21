@@ -1,0 +1,40 @@
+
+.cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 0 2rem 0 2rem;
+}
+
+.logo {
+    width: 8%;
+}
+
+.menu__lista {
+    display: flex;
+}
+
+.menu__itens {
+    list-style: none;
+}
+
+.menu__itens a {
+    text-decoration: none;
+    margin-right: 1.25rem;
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+}
+
+.menu__itens:hover {
+    text-decoration: underline;
+}
+
+.menu__itens:first-child {
+    color: #333333;
+    font-weight:bold;
+}
+
+.menu__itens:last-child a {
+    margin-right: 0;
+}

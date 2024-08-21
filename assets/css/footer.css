@@ -1,0 +1,16 @@
+.rodape {
+    background: #C4C4C4;
+    font-family: var(--fonte-principal);
+    color: #fdfdfd;
+    text-align: end;
+    padding: 1rem 1rem;
+}
+
+.contato__titulo {
+    margin-top: 1rem;
+}
+.contatos {
+    display: flex;
+    flex-direction:column ;
+
+}
